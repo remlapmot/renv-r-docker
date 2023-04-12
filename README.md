@@ -37,4 +37,3 @@ Only the package versions and version of R will be the same. The operating syste
   ```r
   renv::restore(prompt = FALSE)
   ```
-  
