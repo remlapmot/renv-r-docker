@@ -30,7 +30,8 @@ Only the package versions and version of R will be the same. The operating syste
   ```
   rig system make-orthogonal
   ```
-  * Use the Rig.app menu bar app to launch RStudio under R 4.0.5
+  * Use the Rig.app menu bar app to launch RStudio under R 4.0.5 as follows
+    ![](img/rig-example.png)
   * Open this project
   * On Windows hold Ctrl when clicking the RStudio icon to obtain the R version selection
 
