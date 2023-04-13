@@ -21,9 +21,9 @@ Only the package versions and version of R will be the same. The operating syste
   brew install --cask rig
   ```
   * (Only works on Windows and Intel Macs) Install R 4.0.5
-  ```
-  rig add 4.0.5
-  ```
+    ```
+    rig add 4.0.5
+    ```
 
 * On macOS launch the Rig.app menu bar app which will now be in your Applications directory
 * On Apple Silicon Macs run
