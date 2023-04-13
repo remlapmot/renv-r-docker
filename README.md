@@ -15,7 +15,7 @@ Only the package versions and version of R will be the same. The operating syste
 * Installer for macOS
   * Intel processor <https://cran.r-project.org/bin/macosx/base/R-4.0.5.pkg>
   * Apple processor - I don't think R 4.0.5 was released for Apple Silicon, so run the Intel version above (it will automatically run under rosetta2)
-* rig <https://github.com/r-lib/rig#readme>, first install [Homebrew](https://brew.sh/)
+* rig <https://github.com/r-lib/rig#readme>, first install [Homebrew](https://brew.sh/), then install `rig`
   ```
   brew tap r-lib/rig
   brew install --cask rig
