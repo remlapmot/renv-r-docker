@@ -35,8 +35,11 @@ Only the package versions and version of R will be the same. The operating syste
     <img src="img/rig-example.png" width=50%>
   * Open this project
   * On Windows hold Ctrl when clicking the RStudio icon to obtain the R version selection
+    <img src="img/rstudio-windows-control-click-open.png" width=40%>
 
 * Run *setup.R* or more simply run in R
   ```r
   renv::restore(prompt = FALSE)
   ```
+* Here's proof that this ran successfully on Windows
+  <img src="img/windows-proof.png" width=60%>
