@@ -33,7 +33,7 @@ Only the package versions and version of R will be the same. The operating syste
 * Relaunch RStudio running R 4.0.5 
   * On Windows hold Ctrl when clicking the RStudio icon to obtain the R version selection
 
-* Run 
+* Run *setup.R* or more simply
   ```r
   renv::restore(prompt = FALSE)
   ```
