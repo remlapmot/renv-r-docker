@@ -43,3 +43,15 @@ Only the package versions and version of R will be the same. The operating syste
   ```
 * Here's proof that this ran successfully on Windows
   <img src="img/windows-proof.png" width=90%>
+* A warning you can ignore: After successfully running the restore if you run `renv::status()` it will report the following.
+  ``` r
+  renv::status()
+  #> The following package(s) do not appear to be used in this project:
+  #>                       _
+  #> BH                      [1.72.0-3]
+  #>... (alot of output deleted here) 
+  #> zoo                     [1.8-8]
+  #> 
+  #> Use `renv::snapshot()` to remove them from the lockfile.
+  ```
+  You can ignore the advice to remove them because all this means is that there is no *.R*/*.Rmd*/*.qmd* script/s in the project that uses the all the packages.
