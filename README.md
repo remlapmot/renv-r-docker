@@ -42,7 +42,7 @@ Only the package versions and version of R will be the same. The operating syste
   renv::restore(prompt = FALSE)
   ```
 * Here's proof that this ran successfully on Windows
-  <img src="img/windows-proof.png" width=90%>
+  <img src="img/windows-proof.png" width=100%>
 * A warning you can ignore: After successfully running the restore if you run `renv::status()` it will report the following.
   ``` r
   renv::status()
