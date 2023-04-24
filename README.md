@@ -8,14 +8,14 @@ Only the package versions and version of R will be the same. The operating syste
 
 * Install R 4.0.5 for Windows <https://cran.r-project.org/bin/windows/base/old/4.0.5/R-4.0.5-win.exe>
 * Open RStudio using R 4.0.5 by holding Ctrl when you clicking the RStudio icon. This will show you the RStudio R version selection window  
-  <img src="img/rstudio-windows-control-click-open.png" width=40%>
+  <p align="center"><img src="img/rstudio-windows-control-click-open.png" width=40%></p>
 * Open this project in that RStudio running R 4.0.5, by clicking File | Open Project...
 * Run *setup.R* or more simply run in R
   ```r
   renv::restore(prompt = FALSE)
   ```
 * Here's proof that this ran successfully on Windows
-  <img src="img/windows-proof.png" width=100%>
+  <p align="center"><img src="img/windows-proof.png" width=100%></p>
 * A warning you can ignore: After successfully running the restore if you run `renv::status()` it will report the following.
   ``` r
   renv::status()
@@ -56,7 +56,7 @@ Only the package versions and version of R will be the same. The operating syste
   ```
 * Use the Rig.app menu bar app to launch RStudio under R 4.0.5 as follows
 
-  <img src="img/rig-example.png" width=50%>
+  <p align="center"><img src="img/rig-example.png" width=50%></p>
 * Open this project
 * Run *setup.R* or more simply run in R
   ```r
