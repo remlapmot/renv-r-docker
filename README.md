@@ -62,3 +62,10 @@ Only the package versions and version of R will be the same. The operating syste
   ```r
   renv::restore(prompt = FALSE)
   ```
+
+## Updating renv.lock
+
+Run in a Bash shell
+```sh
+./fetch.sh
+```
