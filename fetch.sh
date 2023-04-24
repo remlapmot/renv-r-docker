@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-curl https://raw.githubusercontent.com/opensafely-core/r-docker/master/renv.lock -o renv.lock
+curl https://raw.githubusercontent.com/opensafely-core/r-docker/master/renv.lock -O
