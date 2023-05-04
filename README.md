@@ -36,7 +36,7 @@ Only the package versions and version of R will be the same. The operating syste
   ```
   xcode-select --install
   ```
-* A Fortran compiler is required to be installed in the location R is expecting.
+* A Fortran compiler is required to be installed in the location R is expecting (note that the version from Homebrew will not work).
   * R 4.0.5 was released on 31/3/2021 so my guess is try installing the dmg file from either (depending on which macOS version your Intel Mac has: Catalina or Big Sur or older??)
   * Catalina: try [this](https://github.com/fxcoudert/gfortran-for-macOS/releases/download/10.2/gfortran-10.2-Catalina.dmg)
   * Big Sur: try [this](https://github.com/fxcoudert/gfortran-for-macOS/releases/download/10.2-bigsur-intel/gfortran-10.2-BigSur-Intel.dmg)
