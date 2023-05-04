@@ -43,7 +43,7 @@ Only the package versions and version of R will be the same. The operating syste
   * Or for even older macOS versions: try [this](https://github.com/fxcoudert/gfortran-for-macOS/releases/download/8.2/gfortran-8.2-Mojave.dmg)
 * Install R 4.0.5 using the relevant installer or use `rig`
 * R installer for macOS
-  * Intel processor <https://cran.r-project.org/bin/macosx/base/R-4.0.5.pkg>
+  * Intel processor, [here](https://cran.r-project.org/bin/macosx/base/R-4.0.5.pkg)
   * Apple processor - I don't think R 4.0.5 was released for Apple Silicon, so run the Intel version above (it will automatically run under rosetta2)
 * rig <https://github.com/r-lib/rig#readme>, first install [Homebrew](https://brew.sh/), then install `rig`
   ```
