@@ -7,6 +7,7 @@ Only the package versions and version of R will be the same. The operating syste
 ## Setup on Windows
 
 * Install R 4.0.5 for Windows, installer [here](https://cran.r-project.org/bin/windows/base/old/4.0.5/R-4.0.5-win.exe)
+* Install [Rtools 4.0](https://cran.r-project.org/bin/windows/Rtools/rtools40.html) from [here](https://cran.r-project.org/bin/windows/Rtools/rtools40.html)
 * Open RStudio using R 4.0.5 by holding Ctrl when you clicking the RStudio icon. This will show the RStudio R version selection window  
   <p align="center"><img src="img/rstudio-windows-control-click-open.png" width=40%></p>
 * Open this project in that RStudio running R 4.0.5, by clicking File | Open Project...
