@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD033 -->
 # r-docker-renv: recreating the r-docker environment (essentially on Windows but in theory on Intel Macs and x86_64 Linux as well)
 
 This repo recreates the r-docker environment on your local installation of R.
