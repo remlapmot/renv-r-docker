@@ -108,3 +108,11 @@ Only the package versions and version of R will be the same. The operating syste
   ```r
   renv::restore(prompt = FALSE)
   ```
+
+* If this fails try upgrading **renv** first, i.e.,
+
+  ```r
+  renv::upgrade(prompt = FALSE)
+  renv::activate()
+  renv::restore(prompt = FALSE)
+  ```
