@@ -12,4 +12,9 @@ if (!requireNamespace('BayesianTools', quietly = TRUE)) {
   renv::install("BayesianTools", repos = "https://packagemanager.posit.co/cran/2023-08-21", prompt = FALSE)
 }
 
+# Note 2024-04-06 glmmTMB 1.1.2 failed to build from source on Windows
+if (!requireNamespace('glmmTMB', quietly = TRUE)) {
+  renv::install('glmmTMB', repos = 'https://packagemanager.posit.co/cran/2021-07-21', prompt = FALSE)
+}
+
 renv::restore(prompt = FALSE)
