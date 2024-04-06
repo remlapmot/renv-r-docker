@@ -9,7 +9,7 @@ Only the package versions and version of R will be the same. The operating syste
 * Install R 4.0.5 for Windows, installer [here](https://cran.r-project.org/bin/windows/base/old/4.0.5/R-4.0.5-win.exe)
 * Install [Rtools 4.0](https://cran.r-project.org/bin/windows/Rtools/rtools40.html) from [here](https://cran.r-project.org/bin/windows/Rtools/rtools40.html)
 * Open RStudio using R 4.0.5 by holding Ctrl when you clicking the RStudio icon. This will show the RStudio R version selection window  
-  <p align="center"><img src="img/rstudio-windows-control-click-open.png" width=40%></p>
+  <p align="center"><img src="img/rstudio-windows-control-click-open.png" width=40% alt="Screenshot of RStudio pop to select the version of R to run."></p>
 * Open this project in that RStudio running R 4.0.5, by clicking File | Open Project...
 * Run *setup.R* (technically we should just be able to run `renv::restore(prompt = FALSE)` but some hackery is needed for a few packages first)
 
@@ -17,14 +17,14 @@ Only the package versions and version of R will be the same. The operating syste
   source('setup.R')
   ```
 
-* Run *restore.R* or 
+* Run *restore.R* or
 
   ```r
   renv::restore(prompt = FALSE)
   ```
 
 * Here's proof that this ran successfully on Windows
-  <p align="center"><img src="img/windows-proof.png" width=100%></p>
+  <p align="center"><img src="img/windows-proof.png" width=100% alt="Screenshot of RStudio after having run the setup.R then restore.R scripts."></p>
 * A warning you can ignore: After successfully running the restore if you run `renv::status()` it will report the following.
 
   ``` r
@@ -80,7 +80,7 @@ Only the package versions and version of R will be the same. The operating syste
 
 * Use the *Rig.app* menu bar app to launch RStudio under R 4.0.5 as follows
 
-  <p align="center"><img src="img/rig-example.png" width=50%></p>
+  <p align="center"><img src="img/rig-example.png" width=50% alt="Screenshot of selecting the version of R to run using the Rig app."></p>
 * Open this project, e.g., by double-clicking the *renv-r-docker.Rproj* file
 * Run *setup.R* (again we should just be able to run `renv::restore(prompt = FALSE)` but some hackery is required for a few packages)
 
@@ -88,7 +88,7 @@ Only the package versions and version of R will be the same. The operating syste
   source('setup.R')
   ```
 
-* Run *restore.R* or 
+* Run *restore.R* or
 
   ```r
   renv::restore(prompt = FALSE)
