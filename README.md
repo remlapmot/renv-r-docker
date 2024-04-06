@@ -17,6 +17,12 @@ Only the package versions and version of R will be the same. The operating syste
   source('setup.R')
   ```
 
+* Run *restore.R* or 
+
+  ```r
+  renv::restore(prompt = FALSE)
+  ```
+
 * Here's proof that this ran successfully on Windows
   <p align="center"><img src="img/windows-proof.png" width=100%></p>
 * A warning you can ignore: After successfully running the restore if you run `renv::status()` it will report the following.
@@ -80,6 +86,12 @@ Only the package versions and version of R will be the same. The operating syste
 
   ```r
   source('setup.R')
+  ```
+
+* Run *restore.R* or 
+
+  ```r
+  renv::restore(prompt = FALSE)
   ```
 
 ## Updating the environment when r-docker is updated
