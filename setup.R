@@ -12,3 +12,5 @@ renv::install('glmmTMB', repos = 'https://packagemanager.posit.co/cran/2021-07-2
 # https://support.posit.co/hc/en-us/articles/4415936301335-Resolving-Rcpp-precious-remove-error
 renv::install('Rcpp', repos = 'https://packagemanager.posit.co/cran/2022-09-09', prompt = FALSE)
 renv::install('DHARMa', repos = 'https://packagemanager.posit.co/cran/2022-09-09', prompt = FALSE)
+
+renv::restore(prompt = FALSE)
