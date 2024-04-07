@@ -8,6 +8,7 @@ renv::install("BayesianTools", repos = "https://packagemanager.posit.co/cran/202
 # Note 2024-04-06 glmmTMB 1.1.2 failed to build from source on Windows
 renv::install('glmmTMB', repos = 'https://packagemanager.posit.co/cran/2021-07-21', prompt = FALSE)
 
-# Trickery for DHARMa
+# Trickery for DHARMa needed Rcpp later than 1.0.7 to build
+# https://support.posit.co/hc/en-us/articles/4415936301335-Resolving-Rcpp-precious-remove-error
 renv::install('Rcpp', repos = 'https://packagemanager.posit.co/cran/2022-09-09', prompt = FALSE)
 renv::install('DHARMa', repos = 'https://packagemanager.posit.co/cran/2022-09-09', prompt = FALSE)
