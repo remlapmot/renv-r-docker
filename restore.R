@@ -26,3 +26,6 @@ remove.packages(c('boot', 'class', 'cluster', 'codetools',
                   'foreign', 'KernSmooth',
                   'MASS', 'Matrix', 'mgcv',
                   'nlme', 'nnet', 'spatial', 'survival'), lib = .libPaths()[2])
+
+# lattice is duplicated in .libPaths()[1] and .libPaths()[2]
+remove.packages(c('lattice'), lib = .libPaths()[2])
