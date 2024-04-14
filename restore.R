@@ -1,8 +1,5 @@
 renv::restore(prompt = FALSE)
 
-# Check number of packages restored
-nrow(installed.packages(lib.loc = .libPaths()[1]))
-
 # Due to packages which were installed then removed
 # renv::remove('pak')
 # renv::remove('webshot2')
@@ -31,3 +28,6 @@ remove.packages(c('boot', 'class', 'cluster', 'codetools',
 
 # lattice is duplicated in .libPaths()[1] and .libPaths()[2]
 remove.packages(c('lattice'), lib = .libPaths()[2])
+
+# Count number of packages - should match r image
+nrow(installed.packages())
