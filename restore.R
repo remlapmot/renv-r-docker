@@ -21,3 +21,8 @@ nrow(installed.packages(lib.loc = .libPaths()[1]))
 # renv::remove('vroom')
 # renv::remove('waldo')
 # renv::remove('websocket')
+
+remove.packages(c('boot', 'class', 'cluster', 'codetools',
+                  'foreign', 'KernSmooth',
+                  'MASS', 'Matrix', 'mgcv',
+                  'nlme', 'nnet', 'spatial', 'survival'), lib = .libPaths()[2])
