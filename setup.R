@@ -13,4 +13,4 @@ renv::install('glmmTMB', repos = 'https://packagemanager.posit.co/cran/2021-07-2
 renv::install('Rcpp', repos = 'https://packagemanager.posit.co/cran/2022-09-09', prompt = FALSE)
 renv::install('DHARMa', repos = 'https://packagemanager.posit.co/cran/2022-09-09', prompt = FALSE)
 
-renv::restore(prompt = FALSE)
+source('restore.R', echo = TRUE)
