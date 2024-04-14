@@ -21,6 +21,7 @@ renv::restore(prompt = FALSE)
 # renv::remove('rematch2')
 # renv::remove('downloader')
 
+# Remove core packages which are at different versions in lockfile
 remove.packages(c('boot', 'class', 'cluster', 'codetools',
                   'foreign', 'KernSmooth',
                   'MASS', 'Matrix', 'mgcv',
@@ -29,5 +30,5 @@ remove.packages(c('boot', 'class', 'cluster', 'codetools',
 # lattice is duplicated in .libPaths()[1] and .libPaths()[2]
 remove.packages(c('lattice'), lib = .libPaths()[2])
 
-# Count number of packages - should match r image
+# Count number of packages - should match count in r image
 nrow(installed.packages())
