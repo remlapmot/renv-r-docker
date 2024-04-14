@@ -22,6 +22,7 @@ nrow(installed.packages(lib.loc = .libPaths()[1]))
 # renv::remove('waldo')
 # renv::remove('websocket')
 # renv::remove('rematch2')
+# renv::remove('downloader')
 
 remove.packages(c('boot', 'class', 'cluster', 'codetools',
                   'foreign', 'KernSmooth',
