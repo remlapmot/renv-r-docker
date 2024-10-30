@@ -1,3 +1,4 @@
+Sys.setenv(RENV_CONFIG_MRAN_ENABLED = FALSE)
 renv::restore(prompt = FALSE)
 
 # Due to packages which were installed then removed
