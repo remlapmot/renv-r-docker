@@ -1,5 +1,6 @@
 Sys.setenv(RENV_CONFIG_MRAN_ENABLED = FALSE)
-renv::restore(prompt = FALSE)
+renv::restore(prompt = FALSE, exclude = 'dd4d')
+install.packages('dd4d', repos = c('https://remlapmot.r-universe.dev', 'https://cloud.r-project.org'))
 
 # Due to packages which were installed then removed
 # renv::remove('pak')
