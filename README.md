@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
-# r-docker-renv: recreating the r-docker environment (essentially on Windows but in theory on Intel Macs and x86_64 Linux as well)
+# r-docker-renv: recreating the r-docker r:v1 environment (essentially on Windows but in theory on Intel Macs and x86_64 Linux as well)
 
-This repo recreates the r-docker environment on your local installation of R.
+This repo recreates the r-docker r:v1 environment on your local installation of R.
 
 Only the package versions and version of R will be the same. The operating system and architecture may be different, hence you may see some very small differences in results.
 
@@ -103,16 +103,8 @@ Only the package versions and version of R will be the same. The operating syste
   ./fetch.sh
   ```
 
-* Then run
+* Then run the restore.R script
 
   ```r
-  renv::restore(prompt = FALSE)
-  ```
-
-* If this fails try upgrading **renv** first, i.e.,
-
-  ```r
-  renv::upgrade(prompt = FALSE)
-  renv::activate()
-  renv::restore(prompt = FALSE)
+  source("restore.R")
   ```
